@@ -20,7 +20,8 @@ $(document).ready(function() {
         $("#char-list").append(newButton)
     }
 
-    $(".char").click(function() {
+    //When the buttons are selected clicked, get request for .char's text value
+    $(document).on("click" , ".char", function() {
         character = $(this).text();
         $.ajax({ 
             url: "https://api.giphy.com/v1/gifs/search?q=" + character + "&api_key=z1IwOYprI4qGGTTgjzqit9IDATm3d7q0",
