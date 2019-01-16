@@ -1,0 +1,55 @@
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#heading {
+    border: solid black 1px;
+    height: 50px;
+}
+
+.row {
+    height: 100%;
+    width: 100%;
+}
+
+
+#characters {
+    height: 150px;
+}
+
+#characters {
+    text-align: center;
+}
+
+#char-list {
+    height: 100%;
+}
+
+#char-list button {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+#gifs {
+    border: solid 1px red;
+    height: 500px;
+}
+
+#add-char {
+    height: 500px;
+}
+
+form {
+    margin-left: 5px;
+    margin-top: 5px;
+}
+#add-btn {
+    margin-top: 5px;
+}
+
+#footing {
+    border: solid black 1px;
+    height: 50px;
+}
