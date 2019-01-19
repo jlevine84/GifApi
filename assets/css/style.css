@@ -5,8 +5,8 @@
 }
 
 #heading {
-    border: solid black 1px;
     height: 50px;
+    text-align: center;
 }
 
 .row {
