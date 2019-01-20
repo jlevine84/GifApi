@@ -1,4 +1,4 @@
-var charList = ["Iron Man", "Captain America", "Spider-Man", "Thor", "Hulk",
+var charList = ["Iron Man", "Captain America", "Spider-Man", "Thor", "Hulk", "Deadpool",
                  "Wolverine", "Magneto", "Dr. Strange", "Ant-Man", "Black Widow",
                  "Venom", "Groot", "Star Lord", "Ultron", "Loki", "Gamora"]
 
